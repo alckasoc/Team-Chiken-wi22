@@ -1,23 +1,22 @@
-![Image](./img/resources_md/chiken_reading_resources.PNG)
+<center><img src="./img/resources_md/chiken_reading_resources.PNG" alt="drawing" width=3000/></center>
 
-# The Getting Started Kit
-provided by Vincent
+# The Getting Started Kit by Vincent
 
 <div class="alert alert-block alert-info">
 Table of Contents: <br>
     
 <ul>
-    <li>1. <a href="">Introduction</a></li>
-    <li>2. <a href="">Roadmap</a>
+    <li>1. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#1-introduction-">Introduction</a></li>
+    <li>2. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#2-roadmap-">Roadmap</a>
         <ul>
-            <li>2.1. <a href="">Getting Started</a></li>
-            <li>2.2. <a href="">ML Pipeline</a></li>
-            <li>2.3. <a href="">Deployment (Optional)</a></li>
+            <li>2.1. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#21-getting-started">Getting Started</a></li>
+            <li>2.2. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#22-ml-pipeline">ML Pipeline</a></li>
+            <li>2.3. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#23-deployment-optional">Deployment (Optional)</a></li>
         </ul>
     </li>
-    <li>3. <a href="">Resources</a></li>
-    <li>4. <a href="">Advice</a></li>
-    <li>5. <a href="">Ending Note</a></li>
+    <li>3. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#3-resources-">Resources</a></li>
+    <li>4. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#4-advice-">Advice</a></li>
+    <li>5. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#5-ending-note-">Ending Note</a></li>
 </ul>
 </div>
 
@@ -85,4 +84,4 @@ For NLP, I suggest reading chapters 15 and 16 in Aurélien Géron's book as they
 
 # 5. Ending Note 👋
 
-Alright, I've spent like 2 hours on this document. Hopefully you found it helpful! Do keep in mind everything I provided above (roadmap, resources, advice) is not comprehensive. They are all simply subsets of a larger picture. But for a project like this, I think they are enough for a good starting point. Thanks for reading this and I'm looking forward to working with you guys on this project!
+Alright, I've spent like 2 hours on this document. Hopefully you found it helpful! Do keep in mind everything I provided above (roadmap, resources, advice) is not comprehensive. They are all simply subsets of larger pictures. But for a project like this, I think they are enough for a good starting point. Thanks for reading this and I'm looking forward to working with you guys on this project!
