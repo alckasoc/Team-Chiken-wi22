@@ -6,17 +6,17 @@
 Table of Contents: <br>
     
 <ul>
-    <li>1. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#1-introduction-">Introduction</a></li>
-    <li>2. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#2-roadmap-">Roadmap</a>
+    <li>1. <a href="https://github.com/alckasoc/Team-Chiken-wi22/blob/main/resources.md#1-introduction-">Introduction</a></li>
+    <li>2. <a href="https://github.com/alckasoc/Team-Chiken-wi22/blob/main/resources.md#2-roadmap-">Roadmap</a>
         <ul>
-            <li>2.1. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#21-getting-started">Getting Started</a></li>
-            <li>2.2. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#22-ml-pipeline">ML Pipeline</a></li>
-            <li>2.3. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#23-deployment-optional">Deployment (Optional)</a></li>
+            <li>2.1. <a href="https://github.com/alckasoc/Team-Chiken-wi22/blob/main/resources.md#21-getting-started">Getting Started</a></li>
+            <li>2.2. <a href="https://github.com/alckasoc/Team-Chiken-wi22/blob/main/resources.md#22-ml-pipeline">ML Pipeline</a></li>
+            <li>2.3. <a href="https://github.com/alckasoc/Team-Chiken-wi22/blob/main/resources.md#23-deployment-optional">Deployment (Optional)</a></li>
         </ul>
     </li>
-    <li>3. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#3-resources-">Resources</a></li>
-    <li>4. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#4-advice-">Advice</a></li>
-    <li>5. <a href="https://github.com/alckasoc/Team-Chiken-wi22/edit/main/resources.md#5-ending-note-">Ending Note</a></li>
+    <li>3. <a href="https://github.com/alckasoc/Team-Chiken-wi22/blob/main/resources.md#3-resources-">Resources</a></li>
+    <li>4. <a href="https://github.com/alckasoc/Team-Chiken-wi22/blob/main/resources.md#4-advice-">Advice</a></li>
+    <li>5. <a href="https://github.com/alckasoc/Team-Chiken-wi22/blob/main/resources.md#5-ending-note-">Ending Note</a></li>
 </ul>
 </div>
 
