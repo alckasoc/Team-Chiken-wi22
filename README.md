@@ -16,7 +16,26 @@ If you're just getting started and want to learn the necessary tools going into 
 
 ## 2. Getting Started
 
-[Insert some text on how someone else might get started with your project (e.g. how to install, requirements, etc).]
+### Generating Data
+
+Use `src/generate_dataset.py` to generate tagged latex images. First ensure you
+have a latex distribution installed (MacTex for macOS, Miktex for windows).
+
+First `cd` into `Team-Chiken-wi22`. Then, run
+
+```bash
+# install dependencies
+pip install -r requirements.txt
+```
+
+Generate 50 images:
+
+```bash
+cd src
+python3 generate_dataset.py 50
+```
+
+Change the parameter to generate more/less images.
 
 ## 3. Structure
 
@@ -31,5 +50,4 @@ If you're just getting started and want to learn the necessary tools going into 
 [Insert your info]
 
 - Vincent Tu (Advisor):            [LinkedIn](https://www.linkedin.com/in/vincent-tu-422b18208/) | [GitHub](https://github.com/alckasoc)
-
 
