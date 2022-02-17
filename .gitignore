@@ -1,1 +1,4 @@
 src/data
+*.aux
+*.log
+*.pdf
