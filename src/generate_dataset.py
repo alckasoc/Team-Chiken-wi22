@@ -1,4 +1,6 @@
+import concurrent.futures
 import json
+import multiprocessing
 import os
 import random
 
@@ -69,11 +71,18 @@ def generate_dataset(num_images: int):
     os.makedirs(DATA_DIR)
     map: dict[str, str] = {}
 
-    for i in tqdm(range(num_images)):
+    def _generate_aux(i: int):
         tex = random_latex_string(random.randint(1, MAX_TOKENS))
         fn = f"{DATA_DIR}/data_{i}.png"
         write_image(tex, fn)
         map[fn] = tex
+
+    with concurrent.futures.ThreadPoolExecutor(
+        max_workers=multiprocessing.cpu_count()
+    ) as executor:
+        futures = [executor.submit(_generate_aux, i) for i in range(num_images)]
+        for _ in tqdm(concurrent.futures.as_completed(futures), total=len(futures)):
+            pass
 
     with open(f"{DATA_DIR}/index.json", "w") as f:
         json.dump(map, f)
