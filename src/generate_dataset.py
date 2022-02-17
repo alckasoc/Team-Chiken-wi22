@@ -73,7 +73,7 @@ def generate_dataset(num_images: int):
 
     def _generate_aux(i: int):
         tex = random_latex_string(random.randint(1, MAX_TOKENS))
-        fn = f"{DATA_DIR}/data_{i}.png"
+        fn = os.path.join(DATA_DIR, f"data_{i}.png")
         write_image(tex, fn)
         map[fn] = tex
 
@@ -84,9 +84,9 @@ def generate_dataset(num_images: int):
         for _ in tqdm(concurrent.futures.as_completed(futures), total=len(futures)):
             pass
 
-    with open(f"{DATA_DIR}/index.json", "w") as f:
+    with open(os.path.join(DATA_DIR, "index.json"), "w") as f:
         json.dump(map, f)
 
 
 if __name__ == "__main__":
-    generate_dataset(50)
+    generate_dataset(500)
